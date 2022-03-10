@@ -4,5 +4,39 @@
 	"api.token": "720e2b173c80203acd91c0c41d1e51f9b31ae0c655d2cb75c66428959b195f74784517853c0fa994d23d60f28fbd11cb6f92d05c3f90a852367f6027cfdeb766",
 	"markdown.plugin.softbreaks": false,
 	"markdown.plugin.typographer": false,
-	"editor": "nvim"
+	"editor": "nvim",
+	"spellChecker.language": "en-US",
+	"ui.layout": {
+		"key": "root",
+		"children": [
+			{
+				"key": "sideBar",
+				"width": 250,
+				"visible": false
+			},
+			{
+				"key": "noteList",
+				"width": 250,
+				"visible": true
+			},
+			{
+				"key": "editor",
+				"visible": true
+			}
+		],
+		"visible": true
+	},
+	"noteVisiblePanes": [
+		"editor"
+	],
+	"themeAutoDetect": true,
+	"theme": 2,
+	"sync.target": 5,
+	"sync.5.path": "https://cloud.johannescopeland.com/remote.php/dav/files/johannes/Apps/Joplin",
+	"sync.5.username": "johannes",
+	"editor.keyboardMode": "vim",
+	"windowContentZoomFactor": 100,
+	"style.editor.fontFamily": "JetBrains Mono NF",
+	"style.editor.monospaceFontFamily": "JetBrains Mono NF",
+	"editor.codeView": true
 }
