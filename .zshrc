@@ -15,7 +15,8 @@ alias vi=nvim
 alias winget="winget.exe"
 alias explorer="explorer.exe"
 alias zshrc="vim ~/.zshrc"
-alias vimrc="vim ~/.config/nvim/init.vim"
+alias vimrc="vim ~/.SpaceVim.d/init.toml"
+alias myspacevim="vim ~/.SpaceVim/autoload/myspacevim.vim"
 alias ll="ls -al"
 
 neofetch
