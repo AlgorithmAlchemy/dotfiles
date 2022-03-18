@@ -12,4 +12,5 @@ function! myspacevim#before() abort
 endfunction
 
 function! myspacevim#after() abort
+  nmap <C-P> :FZF<CR>
 endfunction

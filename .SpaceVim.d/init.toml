@@ -43,19 +43,32 @@ name = 'shell'
 default_position = 'top'
 default_height = 30
 
-# Plugins
+### Plugins ###
+# Themes
 [[custom_plugins]]
 repo = "navarasu/onedark.nvim"
 merged = false
 
+# File Management 
 [[custom_plugins]]
 repo = "airblade/vim-rooter"
 merged = false
-
 [[custom_plugins]]
 repo = "junegunn/fzf"
 merged = false
+[[custom_plugins]]
+repo = "junegunn/fzf.vim"
+merged = false
+[[custom_plugins]]
+repo = "tiagofumo/vim-nerdtree-syntax-highlight"
+merged = false
 
+# Git
+[[custom_plugins]]
+repo = "tpope/vim-fugitive" 
+merged = false
+
+# Completions
 [[custom_plugins]]
 repo = "mattn/emmet-vim"
 merged = false
