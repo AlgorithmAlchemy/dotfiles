@@ -1,7 +1,15 @@
+function! myspacevim#before() abort
+  let g:startify_custom_header = [ "", 
+	\ "",
+	\ "	███╗   ██╗███████╗ ██████╗ ██╗   ██╗██╗███╗   ███╗		",
+	\ "	████╗  ██║██╔════╝██╔═══██╗██║   ██║██║████╗ ████║      ",
+	\ "	██╔██╗ ██║█████╗  ██║   ██║██║   ██║██║██╔████╔██║      ",
+	\ "	██║╚██╗██║██╔══╝  ██║   ██║╚██╗ ██╔╝██║██║╚██╔╝██║      ",
+	\ "	██║ ╚████║███████╗╚██████╔╝ ╚████╔╝ ██║██║ ╚═╝ ██║		",
+	\ "	╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝		",
+	\ "",
+	\ ]
+endfunction
+
 function! myspacevim#after() abort
-  let g:spacevim_custom_plugins = [
-    \['vim-latex/vim-latex'],
-    \['junegunn/fzf'],
-    \['airblade/vim-rooter'],
-    \]
 endfunction

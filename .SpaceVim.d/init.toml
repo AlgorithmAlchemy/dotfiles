@@ -29,6 +29,7 @@
     vimcompatible = true
     # file tree 
     filetree_direction = "left"
+    bootstrap_before = 'myspacevim#before'
     bootstrap_after = 'myspacevim#after'
 
 # Enable autocomplete layer
@@ -53,4 +54,8 @@ merged = false
 
 [[custom_plugins]]
 repo = "junegunn/fzf"
+merged = false
+
+[[custom_plugins]]
+repo = "mattn/emmet-vim"
 merged = false
