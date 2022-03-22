@@ -6,6 +6,7 @@ My personal configuration files.
 ```bash
 # Fedora
 sudo dnf install neovim python pip \
+       xfonts-utils \
        neofetch \
        zsh zsh-syntax-highlighting autojump zsh-autosuggestions -y
 
@@ -25,7 +26,7 @@ pip install pynvim \
 ```bash
 rm ~/.zshrc && rm -rf ~/.SpaceVim.d && mkdir ~/.SpaceVim.d/ \
        && ln -s ~/.dotfiles/.zshrc ~/.zshrc \
-       && ln -s ~/.dotfiles/.SpaceVim.d/ ~/.SpaceVim.d/ \
+       && ln -s ~/.dotfiles/.SpaceVim.d/ ~/.SpaceVim.d \
        && ln -s ~/.dotfiles/.SpaceVim/autoload/myspacevim.vim ~/.SpaceVim/autoload/myspacevim.vim \
        && ln -s ~/.dotfiles/joplin ~/.config/joplin
 ```
