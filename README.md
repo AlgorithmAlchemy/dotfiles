@@ -23,9 +23,17 @@ pip install pynvim \
 ```
 
 ### Symlinks
+Remove symlinks if they exist
 ```bash
-rm ~/.zshrc && rm -rf ~/.SpaceVim.d && mkdir ~/.SpaceVim.d/ \
-       && ln -s ~/.dotfiles/.zshrc ~/.zshrc \
+rm ~/.zshrc \
+       && rm -rf ~/.SpaceVim.d \
+       && rm ~/.SpaceVim/autoload/myspacevim.vim \
+       && rm -rf ~/.config/joplin
+```
+
+Create symlinks
+```bash
+ln -s ~/.dotfiles/.zshrc ~/.zshrc \
        && ln -s ~/.dotfiles/.SpaceVim.d/ ~/.SpaceVim.d \
        && ln -s ~/.dotfiles/.SpaceVim/autoload/myspacevim.vim ~/.SpaceVim/autoload/myspacevim.vim \
        && ln -s ~/.dotfiles/joplin ~/.config/joplin
