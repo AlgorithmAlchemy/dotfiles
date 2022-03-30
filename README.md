@@ -7,6 +7,7 @@ My personal configuration files.
 # Fedora
 sudo dnf install neovim python pip \
        xfonts-utils \
+       nodejs \
        neofetch \
        zsh zsh-syntax-highlighting autojump zsh-autosuggestions -y
 
@@ -20,6 +21,7 @@ pip install pynvim \
        && curl -sLf https://spacevim.org/install.sh | bash \
        && NPM_CONFIG_PREFIX=~/.joplin-bin npm install -g joplin \
        && sudo ln -s ~/.joplin-bin/bin/joplin /usr/bin/joplin
+       && 
 ```
 
 ### Symlinks
@@ -37,4 +39,12 @@ ln -s ~/.dotfiles/.zshrc ~/.zshrc \
        && ln -s ~/.dotfiles/.SpaceVim.d/ ~/.SpaceVim.d \
        && ln -s ~/.dotfiles/.SpaceVim/autoload/myspacevim.vim ~/.SpaceVim/autoload/myspacevim.vim \
        && ln -s ~/.dotfiles/joplin ~/.config/joplin
+```
+
+### ZSH setup
+```bash
+touch "$HOME/.cache/zshhistory"
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
+chsh $USER # answer prompt with "/bin/zsh"
 ```
