@@ -72,3 +72,8 @@ merged = false
 [[custom_plugins]]
 repo = "mattn/emmet-vim"
 merged = false
+
+# LaTeX
+[[custom_plugins]]
+repo = "vim-latex/vim-latex"
+merged = false
