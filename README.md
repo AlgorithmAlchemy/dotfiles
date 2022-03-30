@@ -21,7 +21,6 @@ pip install pynvim \
        && curl -sLf https://spacevim.org/install.sh | bash \
        && NPM_CONFIG_PREFIX=~/.joplin-bin npm install -g joplin \
        && sudo ln -s ~/.joplin-bin/bin/joplin /usr/bin/joplin
-       && 
 ```
 
 ### Symlinks
