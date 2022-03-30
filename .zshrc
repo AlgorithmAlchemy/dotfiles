@@ -19,6 +19,9 @@ alias vimrc="vim ~/.SpaceVim.d/init.toml"
 alias myspacevim="vim ~/.SpaceVim/autoload/myspacevim.vim"
 alias ll="ls -al"
 
+export SWIFT_HOME="/mnt/c/Users/Johannes/"
+export IDL_HOME="/mnt/c/Users/copelandhasche/"
+
 neofetch
 
 export NVM_DIR="$HOME/.nvm"
