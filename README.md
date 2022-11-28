@@ -47,3 +47,6 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
 chsh $USER # answer prompt with "/bin/zsh"
 ```
+
+[Oh My Posh Installation](https://ohmyposh.dev/docs/installation/linux)
+[Nala Installation and Config](https://christitus.com/stop-using-apt/)
