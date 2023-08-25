@@ -1,8 +1,12 @@
+HISTFILE=~/.zshhistory
+HISTSIZE=1000
+SAVEHIST=1000
+setopt appendhistory
+
+
 alias winget="winget.exe"
 alias explorer="explorer.exe"
 alias zshrc="code ~/.zshrc"
-alias vimrc="vim ~/.SpaceVim.d/init.toml"
-alias myspacevim="vim ~/.SpaceVim/autoload/myspacevim.vim"
 alias ll="ls -al"
 
 export SWIFT_HOME="/mnt/c/Users/Johannes/"
@@ -11,7 +15,7 @@ export IDL_HOME="/mnt/c/Users/copelandhasche/"
 neofetch
 
 # Oh My Posh
-eval "$(oh-my-posh init zsh --config ~/.poshthemes/mojada.omp.json)"
+eval "$(oh-my-posh init zsh --config ~/.dotfiles/oh-my-posh/themes/mojada.omp.json)"
 
 # Replace APT with Nala
 apt() { 
@@ -32,9 +36,6 @@ sudo() {
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
-
-# Load Angular CLI autocompletion.
-source <(ng completion script)
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
