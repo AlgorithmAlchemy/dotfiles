@@ -8,11 +8,7 @@ alias ll="ls -al"
 export SWIFT_HOME="/mnt/c/Users/Johannes/"
 export IDL_HOME="/mnt/c/Users/copelandhasche/"
 
-screenfetch
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+neofetch
 
 # Oh My Posh
 eval "$(oh-my-posh init zsh --config ~/.poshthemes/mojada.omp.json)"
